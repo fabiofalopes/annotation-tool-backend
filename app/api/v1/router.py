@@ -5,5 +5,5 @@ api_router = APIRouter()
 api_router.include_router(
     disentanglement.router,
     prefix="/disentanglement",
-    tags=["disentanglement"]
+    tags=["Chat disentanglement"]
 ) 
